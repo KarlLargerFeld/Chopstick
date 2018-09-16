@@ -32,7 +32,7 @@ abstract class BasePresenter<V : MvpView> : MvpPresenter<V> {
         if(!isAttached()) throw MvpViewNotAttachedException()
     }
 
-    class MvpViewNotAttachedException(val exception:String = "Please call Presenter.attachView(MvpView) before requesting data to the Presenter") : RuntimeException(exception){
+    class MvpViewNotAttachedException(exception:String = "Please call Presenter.attachView(MvpView) before requesting data to the Presenter") : RuntimeException(exception){
         //val exception:String = "Please call Presenter.attachView(MvpView) before requesting data to the Presenter"
     }
 

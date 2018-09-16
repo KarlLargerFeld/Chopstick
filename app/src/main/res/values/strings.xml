@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Chopstick</string>
+    <string name="click_to">跳转到下一个页面</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">category</string>
 </resources>
